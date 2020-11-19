@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aela Industries</title>
+  <style>
+        *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background: black;
+      color: white;
+      display: block;
+      margin: 250px auto;
+    }
+    #container_1{
+      text-align: center;
+      margin: auto;
+      background: rgb(20, 20, 20);
+      padding: 10px;
+      max-width: none;
+    }
+    .header_1{
+      margin: 10px;
+    }
+    .label_1{
+      max-width: none;
+    }
+    .button_1{
+      background: none;
+      border: none;
+      margin: 20px;
+    }
+    .button_1 a{
+      color: white;
+      background: red;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .button_1 a:hover{
+      color: white;
+      background: rgb(90, 0, 0);
+      cursor: pointer;
+    }
+    a{
+      font-size: 16px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="container_1">
+    <div class="header_1">
+      <h1>aela Industries</h1>
+    </div>
+    <div class="label_1">
+      <!-- <label>Usuario<input type="text"></label>
+      <label>Contraseña<input type="text"></label> -->
+      <button class="button_1" onclick="
+      let Promt_1 = prompt('Usuario');
+      let Promt_2 = prompt('Contraseña');
+      alert(`Bienvenido ${Promt_1}`);
+      "><a href="/home_page_ai.html">Iniciar sesión</a></button>
+    </div>
+  </div>
+</body>
+</html>
